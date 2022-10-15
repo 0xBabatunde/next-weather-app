@@ -18,10 +18,11 @@ export async function getServerSideProps(context) {
   }
 
   const res = await fetch(
-    `https://api.openweathermap.org/data/2.5/onecall?lat=${city.coord.lat}&lon=${city.coord.lon}&appid=${process.env.API_KEY}&exclude=minutely&units=metric`
+    `https://api.openweathermap.org/data/3.0/onecall?lat=${city.coord.lat}&lon=${city.coord.lon}&appid=${process.env.API_KEY}&exclude=minutely&units=metric`
   );
 
   const data = await res.json();
+
 
   if (!data) {
     return {
@@ -83,7 +84,7 @@ export default function City({
   return (
     <>
       <Head>
-        <title>{city.name} Weather - Next Weather App</title>
+        <title>{city.name} Wetter - WetterMaik</title>
       </Head>
 
       <div className="page-wrapper">

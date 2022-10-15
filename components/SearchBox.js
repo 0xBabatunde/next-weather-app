@@ -60,7 +60,7 @@ export default function SearchBox({ placeholder }) {
             results.map((city) => {
               return (
                 <li key={city.slug}>
-                  <Link href={`/location/${city.slug}`}>
+                  <Link href={`/wetter/${city.slug}`}>
                     <a>
                       {city.name}
                       {city.state ? `, ${city.state}` : ""}{" "}

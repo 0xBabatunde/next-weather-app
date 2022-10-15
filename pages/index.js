@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Weather App - Next</title>
+        <title>World Wetter App for Germans - WetterMaik</title>
       </Head>
 
       <div className="home">

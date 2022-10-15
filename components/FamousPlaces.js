@@ -12,22 +12,22 @@ const places = [
   {
     name: "London",
     image: LondonImage,
-    url: "/location/london-2643743",
+    url: "/wetter/london-2643743",
   },
   {
     name: "Paris",
     image: ParisImage,
-    url: "/location/paris-2968815",
+    url: "/wetter/paris-2968815",
   },
   {
     name: "Tokyo",
     image: TokyoImage,
-    url: "/location/tokyo-1850147",
+    url: "/wetter/tokyo-1850147",
   },
   {
     name: "New York",
     image: NewYorkImage,
-    url: "/location/new-york-city-5128581",
+    url: "/wetter/new-york-city-5128581",
   },
 ];
 

@@ -6,7 +6,7 @@ export default function WeeklyWeather({ weeklyWeather, timezone }) {
   return (
     <div className="weekly">
       <h3 className="weekly__title">
-        Weekly <span>Weather</span>
+        Weekly <span>Wetter</span>
       </h3>
 
       {weeklyWeather.length > 0 &&
